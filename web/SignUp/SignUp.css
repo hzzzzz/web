@@ -1,0 +1,56 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.bg{
+	background:url(timg.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 650px;
+	-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(5px);
+}
+
+article{
+	font-family: "Microsoft Yahei";
+	width:300px;  
+    height:200px;  
+    position:absolute;  
+    left:50%;  
+    top:50%;  
+    margin:-200px 0 0 -150px;
+    text-align: center;
+}
+
+h1,p,a,input{
+	color:white;
+}
+
+h1{
+	font-size: 35px;
+}
+
+input{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+    border: 0;
+	background: rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	margin: 10px 0 20px 0;
+	padding-left: 15px;
+}
+
+#sub{
+	width: 315px;
+	padding:0 15px 0 0;
+	background-color: orange;
+}
+
+a{
+	text-decoration: none;
+}

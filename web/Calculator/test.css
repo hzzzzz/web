@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0:
+}
+
+#calculator{
+    background-color: #303133;
+    width: 256px;
+}
+
+#screenName{
+	background-color: #303133;
+	height: 60px;
+	width: 252px;
+	color: white;
+	border:0;
+	font-size:50px;
+	text-align: right;
+	margin-top:20px;
+}
+
+.buttons{
+	float: left;
+	width: 64px;
+	height: 64px;
+	border:1px solid black;
+	background: #d6d6d6;
+	font-family: 20px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+div{
+	clear:both;
+}
+
+.zero{
+	width: 128px;
+}
+
+.orange{
+	background-color: #FA6F14;
+}
