@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 20px;
+}
+
+.main{
+	background-color: #eee;
+	min-width: auto;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+}
+
+.left{
+	float: left;
+	width: 160px;
+	padding: 20px;
+}
+
+.team{
+    float: right;
+}
+
+.right{
+	float: right;
+	width: 120px;
+}
+
+.right img{
+	margin: 20px;
+	display: block;
+}
+
+.middle{
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+}
+
+.left,.right,.middle{
+    border: 1px solid #999;
+	background-color: rgb(255,255,255);
+}

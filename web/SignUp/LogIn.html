@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录界面</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="LogIn.css">
+</head>
+<body>
+    <div class="bg">
+    </div>
+    <article>
+        <h1>登录</h1>
+    	<input type="text" placeholder="用户名" id="user" onblur="oBlur_1()" onfocus="oFocus_1()">
+        <p id="remind_1"></p>
+        <input type="text" placeholder="密码" id="password" onblur="oBlur_2()" onfocus="oFocus_2()">
+        <p id="remind_2"></p>
+        <input type="submit" value="登录" id="sub" onclick="submitText()">
+        <p id="remind_3"></p>
+    	<p>没有账户？</p>
+    	<a href="SignUp.html">注册</a>
+    </article>
+    <script src='SignUp.js'></script>
+</body>
+</html>
