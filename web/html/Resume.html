@@ -2,18 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>resume</title>
+
+    <!-- Le styles -->
     <link href="bootstrap.css" rel="stylesheet">
-    <link href="../css/Resume.css" rel="stylesheet">
-</head>
-<body>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      h2,h3,p,li{
+        font-family: "Microsoft YaHei";
+      }
+      @media (max-width: 980px) {
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+    <link href="bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                <a class="brand">简历</a>
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand">简历</a>
                 <ul class="nav">
                     <li><a href="https://hzzzzz.github.io/web/web/html/Resume.html">首页</a></li>
                     <li><a href="https://hzzzzz.github.io/web/web/html/task_6.html">作品一</a></li>
@@ -26,15 +55,15 @@
                 <p class="navbar-text pull-right">
                     <a href="https://github.com/hzzzzz/web/tree/master/web/works" class="navbar-link">黄卓</a>
                 </p>
-            </div>
         </div>
+      </div>
     </div>
 
     <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span3">
-                <div class="well sidebar-nav">
-                <ul class="nav nav-list">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
                     <li>姓名：黄卓</li>
                     <li>出生年份：1993</li>
                     <li>邮箱：453322397@qq.com</li>
@@ -42,13 +71,12 @@
                     <li>现居地：上海</li>
                     <li>联系方式：18672338770</li>
                     <li>教育经历：江汉大学文理学院 本科</li>
-                </ul>
-                </div>
-            </div>
-
-            <div class="span9">
-                <div class="hero-unit">
-                    <h3>自我评价</h3>
+            </ul>
+          </div>
+        </div>
+        <div class="span9">
+          <div class="hero-unit">
+            <h3>自我评价</h3>
                     <p>熟悉CSS盒模型，掌握DIV+CSS布局，编写符合W3C标准的代码；
 </br>熟悉HTML5标准和web语义化；
 </br>掌握ps切图，能将psd设计稿转化为页面； 
@@ -60,8 +88,8 @@
 </br>使用git版本控制工具；
 </br>熟练使用sublime等工具进行前端页面手动式开发;
                     </p>
-                </div>
-                <div class="row-fluid">
+          </div>
+          <div class="row-fluid">
                     <div class="span4 thumbnail text-center">
                         <h2>作品一</h2>
                         <p>还原PSD设计稿</p>
@@ -102,12 +130,9 @@
                         <p>待续</p>
                     </div>
                 </div>
-            </div>
+          </div>
         </div>
-    </div>      
-    <hr>
-    <footer>
-        <p class="text-center"><a href="https://github.com/hzzzzz/web/tree/master/web/works">hzzzzz@Github</a></p>
-    </footer>
+      </div>
+    </div>
 </body>
 </html>
