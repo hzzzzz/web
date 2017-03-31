@@ -1,135 +1,128 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="renderer" content="webkit">
+	<title>resume</title>
 
-    <title>Off Canvas Template for Bootstrap</title>
+	<link href="../Bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+	<link href="../css/Resume.css" rel="stylesheet">
+	 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --><!--[if lt IE 9]>  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+	<link href="../Bootstrap/dist/css/bootstrap-responsive.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+        	<div class="container-fluid">
+        		<a class="brand">简历</a>
+        		<ul class="nav">
+        			<li><a href="https://hzzzzz.github.io/web/web/html/Resume.html">首页</a></li>
+        			<li><a href="https://hzzzzz.github.io/web/web/html/task_6.html">作品一</a></li>
+        			<li><a href="https://hzzzzz.github.io/web/web/works/index.html">作品二</a></li>
+        			<li><a href="https://hzzzzz.github.io/web/web/Calculator/index.html">作品三</a></li>
+        			<li><a href="https://hzzzzz.github.io/web/web/SignUp/SignUp.html">作品四</a></li>
+        			<li><a href="https://segmentfault.com/n/1330000008904588">作品四（附）</a></li>
+        			<li><a href="https://hzzzzz.github.io/web/web/dm/dm.html">作品五</a></li>
+        		</ul>
+        		<p class="navbar-text pull-right">
+                    <a href="https://github.com/hzzzzz/web/tree/master/web/works" class="navbar-link">黄卓</a>
+        		</p>
+        	</div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
+    </div>
 
-    <div class="container">
+    <div class="container-fluid">
+    	<div class="row-fluid">
+    		<div class="span3">
+    			<div class="well sidebar-nav">
+    			<ul class="nav nav-list">
+    				<li>姓名：黄卓</li>
+    				<li>出生年份：1993</li>
+    				<li>邮箱：453322397@qq.com</li>
+    				<li>身高：172cm</li>
+    				<li>现居地：上海</li>
+    				<li>联系方式：18672338770</li>
+    				<li>教育经历：江汉大学文理学院 本科</li>
+    			</ul>
+    			</div>
+    		</div>
 
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-          </div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
-
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-          </div>
-        </div><!--/.sidebar-offcanvas-->
-      </div><!--/row-->
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-
-    </div><!--/.container-->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    		<div class="span9">
+    			<div class="hero-unit">
+    				<h3>自我评价</h3>
+    				<p>熟悉CSS盒模型，掌握DIV+CSS布局，编写符合W3C标准的代码；
+</br>熟悉HTML5标准和web语义化；
+</br>掌握ps切图，能将psd设计稿转化为页面； 
+</br>熟悉js dom, event,ajax, jsonp能够编写基本的js原生代码,对JavaScript原型，闭包有一定的理解； 
+</br>掌握jQuery脚本框架； 
+</br>掌握Boostrap，了解响应式布局原理； 
+</br>对前端有浓厚兴趣，看了一些前端方面的书籍，如《JavaScript高级程序设计》、《JavaScript语言精粹》、《JavaScript DOM编程艺术》等；
+</br>有一定自学能力和思维理解能力，能与同事良好相处相互协作；
+</br>使用git版本控制工具；
+</br>熟练使用sublime等工具进行前端页面手动式开发;
+                    </p>
+    			</div>
+    			<div class="row-fluid">
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品一</h2>
+    					<p>还原PSD设计稿</p>
+    					<a href="https://hzzzzz.github.io/web/web/html/task_6.html" class="btn btn-inverse" target="_blank">进入</a>
+    				</div>
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品二</h2>
+    					<p>综合示例</p>
+    					<a href="https://hzzzzz.github.io/web/web/works/index.html" class="btn btn-inverse">进入</a>
+    				</div>
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品三</h2>
+    					<p>简易计算器</p>
+    					<a href="https://hzzzzz.github.io/web/web/Calculator/index.html" class="btn btn-inverse" target="_blank">进入</a>
+    				</div>
+    			</div>
+    			<div class="row-fluid">
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品四</h2>
+    					<p>动态背景登陆窗口</p>
+    					<p>通过CSS3给图片添加高斯模糊</p>
+    					<a href="https://hzzzzz.github.io/web/web/SignUp/SignUp.html" class="btn btn-inverse">进入</a>
+    				</div>
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品四（附）</h2>
+    					<p>AJAX代码</p>
+    					<a href="https://segmentfault.com/n/1330000008904588" class="btn btn-inverse">进入</a>
+    				</div>
+    				<div class="span4 thumbnail text-center">
+    					<h2>作品五</h2>
+    					<p>弹幕墙</p>
+    					<a href="https://hzzzzz.github.io/web/web/dm/dm.html" class="btn btn-inverse">进入</a>
+    				</div>
+    			</div>
+    			<div class="row-fluid">
+    			    <div class="span4 thumbnail text-center">
+    					<h2>作品六</h2>
+    					<p>待续</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>  	
+    <hr>
+    <footer>
+        <p class="text-center"><a href="https://github.com/hzzzzz/web/tree/master/web/works">hzzzzz@Github</a></p>
+    </footer>
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="offcanvas.js"></script>
-  </body>
+    <script  src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+</body>
 </html>
